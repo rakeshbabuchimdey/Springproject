@@ -1,0 +1,5 @@
+INSERT,Name:abc,Address:4567 johns Street --> Insert into Student(Name, ID)  values('4567 johns Street','abc')
+UPDATE, ID:6789, Name:abc2 --> Equivalent to UPDATE from STUDENT set name = 'abc2' where ID = 67889
+DELETE,, ID:6789 --> Equivalent to DELETE from STUDENT where ID = 67889
+SELECT,ID:6789 --> Equivalent to Select * from STUDENT where ID = 67889
+SELECT   --> Equivalent to Select * from STUDENT
